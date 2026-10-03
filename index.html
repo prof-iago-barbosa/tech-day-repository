@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechDay 2026 - SENAI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>TechDay 2026</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#cronograma">Cronograma</a></li>
+                <li><a href="#inscricao">Inscrição</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>O Evento</h2>
+            <p>Será um dia inteiro de palestras sobre <strong>Desenvolvimento Web</strong>, <strong>IA</strong> e <strong>Robótica</strong>.</p>
+        </section>
+        <section id="cronograma">
+            <h2>Programação</h2>
+            <ol>
+                <li>08:00 - Credenciamento</li>
+                <li>09:00 - Keynote de Abertura</li>
+                <li>10:30 - Palestra sobre IA</li>
+                <li>14:00 - Workshop de Robótica</li>
+            </ol>
+        </section>
+        <section id="inscricao">
+            <h2>Garanta sua Vaga</h2>
+            <form id="form-inscricao">
+                <div class="form-grid">
+                    <div>
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div>
+                        <label for="email">E-mail Profissional</label>
+                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone / WhatsApp</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </div>
+                    <div>
+                        <label for="nascimento">Data de Nascimento</label>
+                        <input type="date" id="nascimento" name="nascimento">
+                    </div>
+                </div>
+                <button type="submit">Finalizar Inscrição</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 TechDay. Todos os direitos reservados. SENAI Londrina.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
